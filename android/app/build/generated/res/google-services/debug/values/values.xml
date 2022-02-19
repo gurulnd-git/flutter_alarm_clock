@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">996997408144-gdmftmr26pamlgsq75oalb560nnhl7ok.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">996997408144</string>
+    <string name="google_api_key" translatable="false">AIzaSyDieOKlHo2JU6t4d2io6EHArDw92-mrQNs</string>
+    <string name="google_app_id" translatable="false">1:996997408144:android:235fa63efa6eb656a73f15</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDieOKlHo2JU6t4d2io6EHArDw92-mrQNs</string>
+    <string name="google_storage_bucket" translatable="false">flutter-alarm.appspot.com</string>
+    <string name="project_id" translatable="false">flutter-alarm</string>
+</resources>
