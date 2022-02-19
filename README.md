@@ -1,16 +1,40 @@
 # alarm_demo_clock
 
-A new Flutter project.
+This is clone of https://github.com/Clouddoggo/flutter-alarm, but upgraded with latest plugin versions
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1. Add an alarm.
 
-A few resources to get you started if this is your first Flutter project:
+   - Fields: alarm name, alarm remarks, date and time, password.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2. Delete an alarm.
+3. Insistent notification.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   - Device will keep vibrating and sounding off (if not on mute).
+   - Upon clicking on the notification, user will be directed to a page that plays the ringing on loop until the password is entered correctly. Vibration also carries on until the password is entered correctly.
+
+4. Edit an alarm.
+5. Checks for password 'strength'. Passwords must contain at least 1 uppercase letter, 1 lowercase letter, 1 digit and 1 special character.
+
+## Features that might be added
+
+1. Choice of sound when alarm rings.
+2. Pattern lock.
+3. Alarm sharing over WiFi (i.e. sending alarms over WiFi to synced contacts).
+
+## Note
+
+1. Testing has only been done for Android and not iOS.
+2. Lock, home and volume buttons are not locked when user lands on alarm ringing page.
+
+Android emulator view:
+
+![](./assets/images/alarmsView.PNG)
+![](./assets/images/settingsView.PNG)
+![](./assets/images/firebase setup.PNG)
+
+## Credits
+Sound file downloaded from *[freesound](https://freesound.org/s/397787/)*.
+
+Font downloaded from *[Google](https://fonts.google.com/)*.
