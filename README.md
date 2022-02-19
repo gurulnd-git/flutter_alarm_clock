@@ -32,7 +32,7 @@ Android emulator view:
 
 ![](./assets/images/alarmsView.PNG)
 ![](./assets/images/settingsView.PNG)
-![](./assets/images/firebase setup.png)
+![](./assets/images/firebase setup.PNG)
 
 ## Credits
 Sound file downloaded from *[freesound](https://freesound.org/s/397787/)*.
